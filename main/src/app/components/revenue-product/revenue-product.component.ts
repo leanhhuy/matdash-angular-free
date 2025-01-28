@@ -44,7 +44,7 @@ const ELEMENT_DATA: productsData[] = [
     skills: '3.5',
     hrate: 73.2,
     priority: 'Very High',
-    progress: 'accent',
+    progress: 'secondary',
   },
   {
     id: 4,
@@ -59,7 +59,6 @@ const ELEMENT_DATA: productsData[] = [
 ];
 @Component({
   selector: 'app-revenue-product',
-  standalone: true,
   imports: [MaterialModule, MatMenuModule, MatButtonModule, CommonModule],
   templateUrl: './revenue-product.component.html',
 })

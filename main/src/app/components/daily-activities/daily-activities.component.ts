@@ -12,7 +12,6 @@ interface stats {
 
 @Component({
   selector: 'app-daily-activities',
-  standalone: true,
   imports: [MaterialModule],
   templateUrl: './daily-activities.component.html',
 })
@@ -40,7 +39,7 @@ export class AppDailyActivitiesComponent {
     {
       id: 4,
       time: '12.30 pm',
-      color: 'accent',
+      color: 'secondary',
       title: 'New sale recorded',
       link: '#ML-3467',
     },

@@ -1,14 +1,24 @@
+@use "../variables" as *;
+
 html .topbar {
-  background-color: $toolbar;
   position: sticky;
   top: 0;
   z-index: 9;
   height: $header-height;
-  gap: 6px;
+
+  i-tabler {
+    stroke-width: 1.5px;
+  }
 }
 
 .topbar-dd {
   min-width: 200px !important;
+}
+
+.text-hover-primary:hover {
+  .hover-text {
+    color: $primary;
+  }
 }
 
 .object-cover {

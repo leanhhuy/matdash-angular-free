@@ -26,7 +26,6 @@ export interface totalincomeChart {
 
 @Component({
   selector: 'app-total-income',
-  standalone: true,
   imports: [MaterialModule, NgApexchartsModule],
   templateUrl: './total-income.component.html',
 })

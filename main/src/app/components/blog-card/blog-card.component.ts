@@ -19,7 +19,6 @@ interface cardimgs {
 
 @Component({
   selector: 'app-blog-card',
-  standalone: true,
   imports: [MatCardModule, MatChipsModule, TablerIconsModule, MatButtonModule],
   templateUrl: './blog-card.component.html',
 })

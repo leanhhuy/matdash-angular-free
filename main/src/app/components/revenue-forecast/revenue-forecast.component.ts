@@ -32,7 +32,6 @@ interface month {
 
 @Component({
   selector: 'app-revenue-forecast',
-  standalone: true,
   imports: [MaterialModule, TablerIconsModule, NgApexchartsModule],
   templateUrl: './revenue-forecast.component.html',
 })
@@ -41,20 +40,20 @@ export class AppRevenueForecastComponent {
   public revenueForecastChart!: Partial<revenueForecastChart> | any;
 
   months: month[] = [
-    { value: 'mar', viewValue: 'Sep 2024' },
-    { value: 'apr', viewValue: 'Oct 2024' },
-    { value: 'june', viewValue: 'Nov 2024' },
+    { value: 'mar', viewValue: 'Sep 2025' },
+    { value: 'apr', viewValue: 'Oct 2025' },
+    { value: 'june', viewValue: 'Nov 2025' },
   ];
 
   constructor() {
     this.revenueForecastChart = {
       series: [
         {
-          name: '2024',
+          name: '2025',
           data: [1.2, 2.7, 1, 3.6, 2.1, 2.7, 2.2, 1.3, 2.5],
         },
         {
-          name: '2023',
+          name: '2024',
           data: [-2.8, -1.1, -2.5, -1.5, -2.3, -1.9, -1, -2.1, -1.3],
         },
       ],
@@ -76,7 +75,7 @@ export class AppRevenueForecastComponent {
           horizontal: false,
           barHeight: '60%',
           columnWidth: '15%',
-          borderRadius: [6],
+          borderRadius: [5],
           borderRadiusApplication: 'end',
           borderRadiusWhenStacked: 'all',
         },

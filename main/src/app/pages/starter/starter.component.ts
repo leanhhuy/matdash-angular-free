@@ -9,7 +9,6 @@ import { AppRevenueForecastComponent } from 'src/app/components/revenue-forecast
 
 @Component({
   selector: 'app-starter',
-  standalone: true,
   imports: [
     MaterialModule,
     AppNewCustomersComponent,
@@ -20,7 +19,6 @@ import { AppRevenueForecastComponent } from 'src/app/components/revenue-forecast
     AppRevenueForecastComponent,
   ],
   templateUrl: './starter.component.html',
-  styleUrls: ['./starter.component.scss'],
   encapsulation: ViewEncapsulation.None,
 })
 export class StarterComponent {}
