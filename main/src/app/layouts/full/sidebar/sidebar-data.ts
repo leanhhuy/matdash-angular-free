@@ -137,7 +137,6 @@ export const navItems: NavItem[] = [
     route: '',
     chip: true,
     chipClass: 'bg-light-secondary text-secondary',
-    chipContent: 'PRO',
     children: [
       {
         displayName: 'List',
@@ -183,7 +182,6 @@ export const navItems: NavItem[] = [
     route: 'apps/blog',
     chip: true,
     chipClass: 'bg-light-secondary text-secondary',
-    chipContent: 'PRO',
     children: [
       {
         displayName: 'Post',
@@ -429,7 +427,6 @@ export const navItems: NavItem[] = [
     route: 'widgets',
     chip: true,
     chipClass: 'bg-light-secondary text-secondary',
-    chipContent: 'PRO',
     children: [
       {
         displayName: 'Cards',
@@ -489,7 +486,6 @@ export const navItems: NavItem[] = [
     route: 'forms/forms-elements',
     chip: true,
     chipClass: 'bg-light-secondary text-secondary',
-    chipContent: 'PRO',
     children: [
       {
         displayName: 'Autocomplete',
@@ -599,7 +595,6 @@ export const navItems: NavItem[] = [
     route: 'tables',
     chip: true,
     chipClass: 'bg-light-secondary text-secondary',
-    chipContent: 'PRO',
     children: [
       {
         displayName: 'Basic Table',
@@ -877,7 +872,6 @@ export const navItems: NavItem[] = [
     route: '/authentication',
     chip: true,
     chipClass: 'bg-light-secondary text-secondary',
-    chipContent: 'PRO',
     children: [
       {
         displayName: 'Side Forgot Pwd',
@@ -907,7 +901,6 @@ export const navItems: NavItem[] = [
     route: '/authentication',
     chip: true,
     chipClass: 'bg-light-secondary text-secondary',
-    chipContent: 'PRO',
     children: [
       {
         displayName: 'Side Two Steps',
