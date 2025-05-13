@@ -8,7 +8,7 @@ import { TablerIconsModule } from 'angular-tabler-icons';
     imports: [TablerIconsModule, MatButtonModule, MatMenuModule],
     templateUrl: './topstrip.component.html',
 })
-export class AppTopstripComponent {
+export class AppTopstripComponent { 
     constructor() { }
 
 }
