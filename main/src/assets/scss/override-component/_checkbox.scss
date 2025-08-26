@@ -4,9 +4,9 @@
 @include mat.checkbox-overrides(
   (
     unselected-focus-icon-color:
-      var(--mdc-checkbox-unselected-hover-state-layer-color),
+      var(--mat-checkbox-unselected-hover-state-layer-color),
     label-text-color: var(--mat-sys-on-background),
-    unselected-icon-color:  var(--mdc-checkbox-unselected-hover-state-layer-color),
+    unselected-icon-color:  var(--mat-checkbox-unselected-hover-state-layer-color),
   )
 );
 
@@ -16,9 +16,9 @@ html {
     border-radius: 4px;
     width: 21px;
     height: 21px;
-    border: 1px solid var(--mdc-checkbox-unselected-hover-state-layer-color);
+    border: 1px solid var(--mat-checkbox-unselected-hover-state-layer-color);
   }
   .mdc-checkbox .mdc-checkbox__native-control:focus ~ .mdc-checkbox__ripple {
-    background-color: var(--mdc-checkbox-unselected-hover-state-layer-color);
+    background-color: var(--mat-checkbox-unselected-hover-state-layer-color);
   }
 }

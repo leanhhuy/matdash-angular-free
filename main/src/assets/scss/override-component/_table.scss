@@ -3,7 +3,7 @@
 
 @include mat.table-overrides(
   (
-    background-color: var(--mdc-elevated-card-container-color),
+    background-color: var(--mat-card-elevated-container-color),
     header-headline-color: var(--mat-sys-on-background),
     row-item-label-text-color: var(--mat-sys-on-background),
   )
