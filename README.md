@@ -169,7 +169,7 @@ The **Free Version** of the **MatDash Material Angular Dashboard Template** prov
          </td> 
          <td>
            <a href="https://adminmart.com/product/matdash-vuetify-nuxt-js-admin-template/?ref=56" width="150px">
-             <img src="https://adminmart.com/wp-content/uploads/2024/10/matdash-nuxtjs-pro.jpg" alt="materialM-next-admin-template" style="width:150px;">
+             <img src="https://adminmart.com/wp-content/uploads/2024/10/matdash-nuxtjs-pro.jpg" alt="materialM-nuxt-admin-template" style="width:150px;">
            </a>
          </td> 
       </tr>
