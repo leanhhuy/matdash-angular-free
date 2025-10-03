@@ -1,6 +1,6 @@
 <p align="center">
    <a href="https://adminmart.com/" target="_blank">
-      <img src="https://adminmart.github.io/template_api/images/brand-logo/adminmart-Logo.svg" alt="sneat-logo" width="100px" height="100px">
+      <img src="https://adminmart.github.io/template_api/images/brand-logo/adminmart-Logo.svg" alt="matdash-image" width="100px" height="100px">
    </a>
 </p>
 <h1 align="center">
@@ -150,7 +150,7 @@ The **Free Version** of the **MatDash Material Angular Dashboard Template** prov
             <span>Next</span>
          </th>
           <th>
-            <img src="https://skillicons.dev/icons?i=nuxt" height="20" alt="next templates" style="margin-right: 8px;">
+            <img src="https://skillicons.dev/icons?i=nuxt" height="20" alt="nuxt templates" style="margin-right: 8px;">
             <span>Nuxt</span>
          </th>
       </tr>
@@ -177,7 +177,7 @@ The **Free Version** of the **MatDash Material Angular Dashboard Template** prov
    <thead>
       <tr>
          <th>
-            <img src="https://skillicons.dev/icons?i=react" height="20" alt="angular templates" style="margin-right: 8px;">
+            <img src="https://skillicons.dev/icons?i=react" height="20" alt="react templates" style="margin-right: 8px;">
             <span>React</span>
          </th>
          <th>
