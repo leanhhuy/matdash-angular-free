@@ -5,6 +5,7 @@
 :before {
   box-sizing: border-box;
 }
+
 body {
   font-family: $font-family;
   line-height: 1.334rem;
@@ -12,7 +13,7 @@ body {
   color: var(--mat-sys-on-background);
 }
 
-.app-topstrip{
+.app-topstrip {
   position: fixed;
   top: 0;
   z-index: 10;
@@ -25,14 +26,14 @@ body {
   margin-top: 72px;
 }
 
-@media (max-width: 991px){
-  .mainWrapper{
+@media (max-width: 991px) {
+  .mainWrapper {
     margin-top: 157px;
   }
 }
 
-@media (max-width: 767px){
-  .mainWrapper{
+@media (max-width: 767px) {
+  .mainWrapper {
     margin-top: 108px;
   }
 }
@@ -55,6 +56,7 @@ body {
     }
   }
 }
+
 @media (max-width: 1023px) {
   .body-wrapper {
     margin-left: 15px;
@@ -79,6 +81,7 @@ body {
   padding: 30px;
   min-height: calc(100vh - 100px);
   margin: 0 auto;
+
   &.maxWidth {
     max-width: $boxedWidth;
   }
@@ -89,6 +92,7 @@ body {
   padding-left: 24px;
   padding-right: 24px;
   margin: 0 auto;
+
   &.full-width {
     display: flex;
     align-items: center;
@@ -205,4 +209,13 @@ td.hljs-ln-line.hljs-ln-numbers {
 
 .position-relative {
   position: relative;
+}
+
+.mat-drawer[style*="visibility: hidden"] {
+  display: none;
+}
+
+.ng-scroll-viewport[_nghost-ng-c2407083653]>.ng-scroll-content[_ngcontent-ng-c2407083653],
+.ng-scrollbar-external-viewport[_nghost-ng-c2407083653] .ng-scroll-viewport>.ng-scroll-content {
+  width: 100% !important;
 }
